@@ -4,49 +4,73 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="../dist/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
     <title>HTMEDIA</title>
   </head>
   <body>
+    <button class="menu-link d-md-none">
+      <i class="fas fa-bars fa-2x"></i>
+    </button>
+    <div class="header-block menu">
+      <ul class="d-flex flex-column align-items-center">
+        <div class="header-logo mb-3 m-md-0">
+          <a href="index.html">
+            <img src="src/img/logo.png" alt="" class="header-logo__image">
+          </a>
+        </div>
+        <li><a href="#">о компании</a></li>
+        <li><a href="#">как это работает</a></li>
+        <li><a href="#">почему мы</a></li>
+        <li><a href="#">отзывы</a></li>
+        <li><a href="#">вопрос-ответ</a></li>
+        <li class="d-flex mr-4 mt-3">
+          <a href="#" class="header-block__link text-white">
+            Войти
+          </a>
+          <a href="#" class="header-block__link text-white">
+            Регистрация
+          </a>
+        </li>
+      </ul>
+    </div>
     <main class="main text-white">
       <header class="header py-sm-4">
         <div class="container d-flex justify-content-between flex-column flex-lg-row align-items-center">
-          <div class="header-logo">
+          <div class="header-logo mb-3 m-md-0">
             <a href="index.html">
               <img src="src/img/logo.png" alt="" class="header-logo__image">
             </a>
           </div>
-          <div class="header-block d-flex my-3 my-lg-0 text-sm-center text-md-left flex-column flex-sm-row align-items-center align-items-sm-baseline">
-            <a href="#" class="header-block__link text-white">
-              о компании
-            </a>
-            <a href="#" class="header-block__link text-white mx-xl-5 mx-lg-4 mx-5">
-              как это работает
-            </a>
-            <a href="#" class="header-block__link text-white">
-              почему мы
-            </a>
-            <a href="#" class="header-block__link text-white mx-xl-5 mx-lg-4 mx-5">
-              отзывы
-            </a>
-            <a href="#" class="header-block__link text-white">
-              вопрос-ответ
-            </a>
-          </div>
-          <div class="header-block d-flex">
-            <a href="#" class="header-block__link mr-xl-5 mr-lg-4 mr-5 text-white">
-              Войти
-            </a>
-            <a href="#" class="header-block__link text-white">
-              Регистрация
-            </a>
+          <nav class="header-block d-none d-md-block">
+            <ul class="d-flex flex-column flex-sm-row align-items-center align-items-sm-baseline">
+              <li><a href="#">о компани</a></li>
+              <li><a href="#" class="mx-5 mx-xl-5 mx-lg-4">как это работает</a></li>
+              <li><a href="#">почему мы</a></li>
+              <li><a href="#" class="mx-5 mx-xl-5 mx-lg-4">отзывы</a></li>
+              <li><a href="#">вопрос-ответ</a></li>
+            </ul>
+          </nav>
+          <div class="header-block">
+            <ul class="d-flex">
+              <li>
+                <a href="#" class="header-block__link mr-xl-5 mr-lg-4 mr-5 text-white">
+                  Войти
+                </a>
+              </li>
+              <li>
+                <a href="#" class="header-block__link text-white">
+                  Регистрация
+                </a>
+              </li>
+            </ul>
           </div>
         </div>
       </header>
       <div class="container my-lg-5 py-lg-3">
         <div class="row">
           <div class="col-lg-6 col-12">
-            <h1 class="main__title mb-md-4">Как это работает</h1>
-            <p class="main__descr">
+            <h1 class="main__title mb-md-4 mt-4 mt-sm-0">Как это работает</h1>
+            <p class="main__descr my-5 my-sm-0">
               Основная цель проекта «Я партнер» заключается в том, чтобы эффективно привлекать средства, позволяя людям зарабатывать деньги. Для нас важно, чтобы люди могли помогать некоммерческим фондам.
             </p>
             <p class="main__descr py-lg-5 py-md-3">
@@ -357,30 +381,66 @@
           <img src="src/img/logo.png" alt="logo">
         </div>
         <div class="footer-block d-flex my-3 my-lg-0 text-sm-center text-md-left flex-column flex-sm-row align-items-center align-items-sm-baseline">
-          <a href="#" class="footer-block__link text-white">
-            о компании
-          </a>
-          <a href="#" class="footer-block__link text-white mx-xl-5 mx-lg-4 mx-5">
-            как это работает
-          </a>
-          <a href="#" class="footer-block__link text-white">
-            почему мы
-          </a>
-          <a href="#" class="footer-block__link text-white mx-xl-5 mx-lg-4 mx-5">
-            отзывы
-          </a>
-          <a href="#" class="footer-block__link text-white">
-            вопрос-ответ
-          </a>
+          <ul class="d-flex flex-column flex-sm-row align-items-center">
+            <li>
+              <a href="#" class="footer-block__link text-white">
+                о компании
+              </a>
+            </li>
+            <li>
+              <a href="#" class="footer-block__link text-white mx-xl-5 mx-lg-4 mx-sm-5">
+                как это работает
+              </a>
+            </li>
+            <li>
+              <a href="#" class="footer-block__link text-white">
+                почему мы
+              </a>
+            </li>
+            <li>
+              <a href="#" class="footer-block__link text-white mx-xl-5 mx-lg-4 mx-sm-5">
+                отзывы
+              </a>
+            </li>
+            <li>
+              <a href="#" class="footer-block__link text-white">
+                вопрос-ответ
+              </a>
+            </li>
+          </ul>
         </div>
         <div class="footer-block">
-          <a href="#" class="footer-block__link mr-lg-5 text-white">
+          <p class="footer-block__link mr-lg-5 text-white">
             © Я партнер. 2019
-          </a>
+          </p>
         </div>
       </div>
     </footer>
    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
    <script src="../dist/main.js"></script>
+   <script>
+    $(document).ready(function(){
+     
+      var link = $('.menu-link');
+      var menu = $('.menu');
+
+      link.click(function(){
+        menu.toggleClass('menu_active')
+        link.toggleClass('menu-link_active')
+      })
+
+
+      $(window).on('scroll', function() {
+        var $div = $('.menu-link'),
+        scroll = $(this).scrollTop();
+
+        if (scroll > 10) {
+          $div.addClass('menu-link_active');
+        } else {
+          $div.removeClass('menu-link_active');
+        }
+      });
+    });
+   </script>
   </body>
 </html>
