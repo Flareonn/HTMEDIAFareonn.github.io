@@ -111,15 +111,15 @@ img {
   font-family: MuseoSansCyrl;
   font-weight: 400;
   font-style: normal;
-  src: url("/src/fonts/MuseoSansCyrl-500/MuseoSansCyrl-500.eot") format("eot");
-  src: url("/src/fonts/MuseoSansCyrl-500/MuseoSansCyrl-500.eot?#iefix") format("embedded-opentype"), url("/src/fonts/MuseoSansCyrl-500/MuseoSansCyrl-500.woff") format("woff"), url("/src/fonts/MuseoSansCyrl-500/MuseoSansCyrl-500.ttf") format("truetype"); }
+  src: url("./src/fonts/MuseoSansCyrl-500/MuseoSansCyrl-500.eot") format("eot");
+  src: url("./src/fonts/MuseoSansCyrl-500/MuseoSansCyrl-500.eot?#iefix") format("embedded-opentype"), url("./src/fonts/MuseoSansCyrl-500/MuseoSansCyrl-500.woff") format("woff"), url("./src/fonts/MuseoSansCyrl-500/MuseoSansCyrl-500.ttf") format("truetype"); }
 
 @font-face {
   font-family: MuseoSansCyrl;
   font-weight: 300;
   font-style: normal;
-  src: url("/src/fonts/MuseoSansCyrl-300/MuseoSansCyrl-300.eot");
-  src: url("/src/fonts/MuseoSansCyrl-300/MuseoSansCyrl-300.eot?#iefix") format("embedded-opentype"), url("/src/fonts/MuseoSansCyrl-300/MuseoSansCyrl-300.woff") format("woff"), url("/src/fonts/MuseoSansCyrl-300/MuseoSansCyrl-300.ttf") format("truetype"); }
+  src: url("./src/fonts/MuseoSansCyrl-300/MuseoSansCyrl-300.eot");
+  src: url("./src/fonts/MuseoSansCyrl-300/MuseoSansCyrl-300.eot?#iefix") format("embedded-opentype"), url("./src/fonts/MuseoSansCyrl-300/MuseoSansCyrl-300.woff") format("woff"), url("./src/fonts/MuseoSansCyrl-300/MuseoSansCyrl-300.ttf") format("truetype"); }
 
 .header-block ul li a, .footer-block ul li a {
   color: #fff;
@@ -151,7 +151,7 @@ img {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-image: url("/src/img/main-bg.jpg");
+  background-image: url("./src/img/main-bg.jpg");
   z-index: 2; }
   .main::before {
     content: '';
@@ -175,7 +175,7 @@ img {
   font-size: 24px; }
 
 .features {
-  background-image: url("/src/img/arm.png");
+  background-image: url("./src/img/arm.png");
   background-repeat: no-repeat;
   background-position: right top; }
 
@@ -217,12 +217,12 @@ img {
     line-height: 25px; }
 
 .client-block_1 {
-  background: url("/src/img/bg-client.jpg") no-repeat;
+  background: url("./src/img/bg-client.jpg") no-repeat;
   background-size: cover;
   height: 545px; }
 
 .client-block_2 {
-  background: url("/src/img/bg-client2.jpg") no-repeat;
+  background: url("./src/img/bg-client2.jpg") no-repeat;
   background-size: cover;
   height: 545px; }
 
